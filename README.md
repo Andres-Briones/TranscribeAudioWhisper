@@ -26,10 +26,9 @@ A simple Python script for transcribing audio files into text using OpenAI's Whi
    ```
 
 2. **Install denpendecies**
-   In a python virtualenv :
-   ```bash
-   pip install openai
-   ```
+      ```bash
+      pip install openai
+      ```
 
 ## Usage
 1. Set Your API Key
