@@ -25,7 +25,7 @@ A simple Python script for transcribing audio files into text using OpenAI's Whi
    cd audio-transcription
    ```
 
-2 **Install denpendecies**
+2. **Install denpendecies**
    In a python virtualenv :
    ```bash
    pip install openai
@@ -33,26 +33,23 @@ A simple Python script for transcribing audio files into text using OpenAI's Whi
 
 ## Usage
 1. Set Your API Key
-Save your OpenAI API key to the config.ini file:
+   Save your OpenAI API key to the config.ini file:
     ```bash
     python transcribe_audio.py set_api_key <your_openai_api_key>
     ```
 
 2. Transcribe Audio
-
 Run the script to transcribe an audio file:
-    ```bash
-    python transcribe_audio.py <path_to_audio_file> [<output_file_path>]
-    ```
-
+   ```bash
+   python transcribe_audio.py <path_to_audio_file> [<output_file_path>]
+   ```   
   - path_to_audio_file: Path to the audio file (required).
   - output_file_path: Path to save the transcription (optional).
 
 
-### Example:
-    ```bash
-    python transcribe_audio.py sample_audio.mp3
-    ```
-
+## Example
+   ```bash
+   python transcribe_audio.py sample_audio.mp3
+   ```
 This saves the transcription as sample_audio.txt.
 
